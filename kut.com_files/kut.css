@@ -1,0 +1,45 @@
+body
+{
+	position:absolute;
+	margin: 0px;
+	padding: 0px;
+	background-color:rgb(252, 249, 249);
+	color:#0f0f0f;
+}
+.header {
+    background-color: black;
+    color: rgb(250, 248, 245);
+    height: 80px;
+}
+li {
+    position: unset;
+}
+.free {
+    background-color:white;
+    height: 30px;
+}
+.free-space{
+    widows: 100px;
+    height: 100px;
+    background-color:white;
+}
+button {
+    display:circle;
+    position: relative;
+    left:920px;
+	top:0px;
+	width:640px;
+	/*border:2px solid #ffffff;
+	border-bottom: 2px groove #434343;*/
+    background-color:rgb(22, 173, 153);
+    width: 90px;
+    height: 23px;
+    background-position-x: inherit;
+    shape-outside: circle(25px);
+    box-shadow: rgb(93, 12, 223);
+}
+.end{
+    background-color: rgb(28, 7, 68);
+    color: rgb(250, 248, 245);
+    height: 60px
+}
